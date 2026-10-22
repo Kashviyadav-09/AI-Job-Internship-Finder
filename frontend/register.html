@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account | CareerConnect</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">CareerConnect<span>.</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="auth-section">
+    <div class="auth-card">
+      <p class="eyebrow">START YOUR CAREER JOURNEY</p>
+      <h1>Create your account</h1>
+      <p class="auth-description">
+        Join CareerConnect to explore jobs and internships.
+      </p>
+
+      <form id="registerForm">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text"
+               placeholder="Enter your full name" required>
+
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email"
+               placeholder="Enter your email" required>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password"
+               placeholder="Create a password" minlength="8" required>
+
+        <button type="submit" class="auth-button">
+          Create Account
+        </button>
+
+        <p id="registerMessage" role="status" aria-live="polite"></p>
+      </form>
+
+      <p class="auth-footer">
+        Already have an account?
+        <a href="login.html">Log in</a>
+      </p>
+    </div>
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
