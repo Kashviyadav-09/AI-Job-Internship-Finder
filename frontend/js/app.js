@@ -1,5 +1,7 @@
 
-const API_URL = "http://localhost:8080/api/jobs";
+
+const API_URL = "https://ai-job-internship-finder-1.onrender.com/api/jobs";
+
 
 let allJobs = [];
 
