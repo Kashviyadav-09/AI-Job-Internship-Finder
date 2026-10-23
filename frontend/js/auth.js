@@ -1,7 +1,5 @@
 
-const API_URL = "http://localhost:8080/api/auth";
-
-// REGISTER
+const API_URL = "https://ai-job-internship-finder-1.onrender.com/api/auth";
 const registerForm = document.getElementById("registerForm");
 
 if (registerForm) {
